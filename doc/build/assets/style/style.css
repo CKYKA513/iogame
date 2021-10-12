@@ -1,0 +1,34 @@
+:root {
+    --vert: #05ffa1;
+    --bleu: #01cdfe;
+    --rose: #ff71ce;
+    --mauve: #b967ff;
+    --jaune: #fffb96;
+}
+body {
+    margin: 0px;
+    color: var(--mauve);
+    background-color: var(--vert);
+    display: flex;
+}
+.title {
+    color: var(--rose);
+}
+.menu {
+    color: var(--jaune);
+    background-color: var(--mauve);
+    display: flex;
+    width: 100vw;
+    height: 6vh;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+li {
+    display: inline-block;
+}
+.text_box {
+    width: 10vw;
+    height: 10vh;
+    color: white;
+    background-color: black;
+}
