@@ -1,34 +1,66 @@
+/* variable */
+
 :root {
-    --vert: #05ffa1;
-    --bleu: #01cdfe;
-    --rose: #ff71ce;
-    --mauve: #b967ff;
-    --jaune: #fffb96;
+    --vert: #a5fe5d;
+    --bleu: #5cc9ff;
+    --rose: #ffade7;
+    --rouge: #f25454;
+    --jaune: #fffa5c;
+    --noir: #1a100f;
+    --blanc: #ffffef;
 }
+
+/* index.html */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
-    color: var(--mauve);
-    background-color: var(--vert);
+    width: 100vw;
+    height: 100vh;
+    color: var(--noir);
+    background-color: var(--rouge);
     display: flex;
 }
+
+/* main.handlebars */
+
 .title {
-    color: var(--rose);
+    color: var(--noir);
 }
+
+/* menu.handlebars */
+
 .menu {
     color: var(--jaune);
-    background-color: var(--mauve);
+    background-color: var(--noir);
     display: flex;
     width: 100vw;
     height: 6vh;
-    justify-content: space-around;
+    justify-content: center;
     align-self: flex-end;
+    margin-bottom: 10vh;
 }
+
+ul {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
 li {
     display: inline-block;
+    margin: 0vh, 5vw, 0vh, 5vw;
+    padding: 10vh, 5vw, 0vh, 5vw;
 }
+
+/* textbox.handlebars */
+
 .text_box {
     width: 10vw;
     height: 10vh;
-    color: white;
-    background-color: black;
+    color: var(--blanc);
+    background-color: var(--noir);
 }
