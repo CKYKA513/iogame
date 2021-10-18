@@ -52,8 +52,8 @@ ul {
 
 li {
     display: inline-block;
-    margin: 0vh, 5vw, 0vh, 5vw;
-    padding: 10vh, 5vw, 0vh, 5vw;
+    /* margin: 0vh, 5vw, 0vh, 5vw;
+    padding: 10vh, 5vw, 0vh, 5vw; */
 }
 
 /* textbox.handlebars */
